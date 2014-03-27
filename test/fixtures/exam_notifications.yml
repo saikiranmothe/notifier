@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  last_date: 2014-03-24
+  exam_date: MyString
+  age_limit: MyString
+  company_name: MyString
+  edu_qualification: MyText
+  user_id: 1
+
+two:
+  name: MyString
+  last_date: 2014-03-24
+  exam_date: MyString
+  age_limit: MyString
+  company_name: MyString
+  edu_qualification: MyText
+  user_id: 1

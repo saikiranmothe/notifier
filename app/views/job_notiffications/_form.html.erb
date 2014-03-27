@@ -1,0 +1,14 @@
+<%= simple_form_for @job_notiffication, :html => { :class => 'form-horizontal' } do |f| %>
+  <%= f.input :company_name %>
+  <%= f.input :vacancies %>
+  <%= f.input :last_date %>
+  <%= f.input :exam_date %>
+  <%= f.input :age_limit %>
+  <%= f.input :edu_qualifications %>
+  <%= f.hidden_field :user_id, :value => current_user.id %>
+  <div class="form-actions">
+    <%= f.button :submit, :class => 'btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                job_notiffications_path, :class => 'btn' %>
+  </div>
+<% end %>
